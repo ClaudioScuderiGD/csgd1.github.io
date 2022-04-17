@@ -105,6 +105,10 @@ body {
     transition: fill .2s linear;
 }
 
+.section .links > .link:visited {
+    fill: white;
+}
+
 .section .links > .link:hover {
     fill: #A5C8DE;
 }
