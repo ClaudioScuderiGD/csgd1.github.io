@@ -167,7 +167,7 @@ body {
     padding-right: 30px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
     .section .text > img {
         float: none;
         display: block;
@@ -177,7 +177,9 @@ body {
         max-width: 100%;
         padding-right: 0;
     }
+}
 
+@media screen and (max-width: 800px) {
     .navbar > .tabs {
         position: relative;
         left: 50%;
