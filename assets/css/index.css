@@ -57,7 +57,7 @@ body {
 .section > div {
     padding: 40px 0;
 
-    width: 800px;
+    width: 1100px;
     max-width: 100%;
     position: relative;
     left: 50%;
@@ -120,6 +120,10 @@ body {
     background-size: cover;
 }
 
+.presentation > div {
+    width: 800px;
+}
+
 .presentation .title, .presentation .subtitle {
     text-transform: uppercase;
 }
@@ -140,10 +144,6 @@ body {
 .about-me .text > img {
     float: left;
     padding-right: 30px;
-}
-
-.experience > div {
-    width: 1100px;
 }
 
 .experience .title {
