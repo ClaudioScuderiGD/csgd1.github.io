@@ -6,6 +6,10 @@ body {
     background-color: #171414;
 }
 
+.none {
+    display: none;
+}
+
 .navbar {
     position: fixed;
     display: inline-block;
@@ -196,24 +200,47 @@ body {
     width: calc(100% - 16px - 2px);
     margin: 10px 0;
     background-color: black;
-    border-color: #2f2e2e;
+    border: 3px solid #2f2e2e;
     color: white;
     font-weight: 900;
     font-family: 'Manrope', sans-serif;
+}
+
+.contact-me .form .input:focus-visible {
+    outline: none;
+    border: 3px solid white;
 }
 
 .contact-me .form .input[type=text] {
     padding: 8px;
     font-size: 18px;
 }
-
 .contact-me .form .btn {
     padding: 10px 20px;
-    border: 0;
+    border: 3px solid #2f2e2e;
+    outline: none;
     background-color: black;
     color: white;
     font-weight: 900;
     font-size: 18px;
+}
+
+.contact-me .form .btn:active {
+    border-color: white;
+}
+
+#feedback {
+    text-align: center;
+    font-weight: 900;
+}
+
+#feedback.confirmed {
+    display: inline-block;
+    width: calc(100% - 6px);
+    background-color: black;
+    padding: 50px 0;
+    border: 3px solid #2f2e2e;
+    margin: 40px 0;
 }
 
 @media screen and (max-width: 1000px) {

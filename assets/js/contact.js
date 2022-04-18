@@ -29,11 +29,27 @@ $('#contact-form').submit(function(event) {
           data: data,
           success: function(jqXHR, textStatus, errorThrown) {
             console.log('Enter on success');
+            $('.form').addClass("none")
+            $('#feedback').addClass("confirmed");
             $('#feedback').html('<label class="text-success">Message sent!</label>');
+            window.setTimeout(function(){
+
+              // Move to a new location or you can do something else
+              window.location.href = "./index.html";
+      
+          }, 5000);
           },
           error: function(jqXHR, textStatus, errorThrown) {
             console.log('Enter on error');
+            $('.form').addClass("none")
+            $('#feedback').addClass("confirmed");
             $('#feedback').html('<label class="text-success">Message sent!</label>');
+            window.setTimeout(function(){
+
+              // Move to a new location or you can do something else
+              window.location.href = "./index.html";
+      
+          }, 5000);
           }
         });
       }
