@@ -120,7 +120,7 @@ body {
 
 .presentation {
     padding-top: 60px;
-    background: url(../img/aurora-boreale.jpg) no-repeat;
+    background: url(../img/universe.jpg) no-repeat;
     background-size: cover;
 }
 
@@ -165,6 +165,55 @@ body {
 .experience .text > img {
     float: left;
     padding-right: 30px;
+}
+
+.contact-me {
+    padding-top: 60px;
+}
+
+.contact-me > div {
+    width: 500px;
+}
+
+.contact-me .title {
+    font-size: 60px;
+}
+
+.contact-me .form .form-group {
+    margin: 20px 0;
+}
+
+.contact-me .form .btn {
+    margin-bottom: 40px;
+}
+
+.contact-me .form b {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.contact-me .form .input {
+    width: calc(100% - 16px - 2px);
+    margin: 10px 0;
+    background-color: black;
+    border-color: #2f2e2e;
+    color: white;
+    font-weight: 900;
+    font-family: 'Manrope', sans-serif;
+}
+
+.contact-me .form .input[type=text] {
+    padding: 8px;
+    font-size: 18px;
+}
+
+.contact-me .form .btn {
+    padding: 10px 20px;
+    border: 0;
+    background-color: black;
+    color: white;
+    font-weight: 900;
+    font-size: 18px;
 }
 
 @media screen and (max-width: 1000px) {
