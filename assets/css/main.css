@@ -223,6 +223,7 @@ body {
     color: white;
     font-weight: 900;
     font-size: 18px;
+    font-family: 'Manrope', sans-serif;
 }
 
 .contact-me .form .btn:active {
@@ -232,6 +233,7 @@ body {
 #feedback {
     text-align: center;
     font-weight: 900;
+    font-family: 'Manrope', sans-serif;
 }
 
 #feedback.confirmed {
