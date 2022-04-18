@@ -126,6 +126,7 @@ body {
     padding-top: 60px;
     background: url(../img/universe.jpg) no-repeat;
     background-size: cover;
+    background-position: center center;
 }
 
 .presentation > div {
