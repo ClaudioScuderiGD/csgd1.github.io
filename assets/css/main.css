@@ -201,6 +201,7 @@ body {
     width: calc(100% - 16px - 2px);
     max-width: calc(100% - 16px - 2px);
     min-width: calc(100% - 16px - 2px);
+    min-height: 25px;
     margin: 10px 0;
     background-color: black;
     border: 3px solid #2f2e2e;
